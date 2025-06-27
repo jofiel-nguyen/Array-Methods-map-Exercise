@@ -10,3 +10,8 @@ const movies = [
 	{title: "Minority Report", director: "Steven Spielberg", yearReleased: 2002},
 	{title: "Ex Machina", director: "Alex Garland", yearReleased: 2014}
 ];
+const numbers = [1, 25, 5, 10, 15, 3, 20, 8, 2];
+
+const filteredNumbers = numbers.filter(number => number >= 10);
+
+console.log(filteredNumbers);
